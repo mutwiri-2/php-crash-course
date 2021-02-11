@@ -8,7 +8,18 @@
   <title>Document</title>
 </head>
 <body>
-Hello World
-<!--Echo HTML tags-->
+
+  <?php 
+    echo "Hello World from PHP";
+    echo " and Welcome!";
+  ?>
+
+  <?php
+    echo '<br>';
+    echo "Hello from another tag";
+    echo '<hr>';
+    echo '<button>Click Me</button>'
+  ?>
+
 </body>
 </html>
