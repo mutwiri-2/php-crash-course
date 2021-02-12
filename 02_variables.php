@@ -80,7 +80,13 @@ echo is_null($salary); //true
 echo isset($name); //true
 echo isset($address); //false
 
-// Constants
+// Constants - values set do not change
+
+define('PI', 3.14);
+echo '<br>' . PI . '<br>'; // no dollar sign before constant name
 
 // Using PHP built-in constants
+
+echo PHP_INT_MAX;
+
 ?>
