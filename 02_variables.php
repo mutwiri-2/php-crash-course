@@ -57,9 +57,15 @@ echo gettype(false).'<br>';
 
 // Print the whole variable
 
+echo var_dump($name, $age, $isMale, $height, $salary);
+
 // Change the value of the variable
 
+$name = true;
+
 // Print type of the variable
+
+echo '<br>'. gettype($name).'<br>';
 
 // Variable checking functions
 
