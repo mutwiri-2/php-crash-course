@@ -87,6 +87,7 @@ echo '<br>' . PI . '<br>'; // no dollar sign before constant name
 
 // Using PHP built-in constants
 
-echo PHP_INT_MAX;
+echo PHP_INT_MAX . '<br>';
+echo SORT_ASC. '<br>';
 
 ?>
