@@ -69,6 +69,12 @@ echo '<br>'. gettype($name).'<br>';
 
 // Variable checking functions
 
+echo is_string($name); //false
+echo is_int($age); //true
+echo is_bool($isMale); //true
+echo is_double($height); //true
+echo is_null($salary); //true
+
 // Check if variable is defined
 
 // Constants
