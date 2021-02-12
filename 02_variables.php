@@ -75,7 +75,10 @@ echo is_bool($isMale); //true
 echo is_double($height); //true
 echo is_null($salary); //true
 
-// Check if variable is defined
+// Check if variable is defined / declared in the current scope
+
+echo isset($name); //true
+echo isset($address); //false
 
 // Constants
 
