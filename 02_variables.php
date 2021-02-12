@@ -44,7 +44,16 @@ is converted to a String (e.g when we try to print the boolean variable), the tr
 value is converted to 1 and false value will be converted to an empty string";
 echo "NULL values are also converted to an empty string when we print them out.";
 echo '<br>';
+
+
 // Print types of the variables
+
+echo gettype($name).'<br>';
+echo gettype($age).'<br>';
+echo gettype($isMale).'<br>';
+echo gettype($height).'<br>';
+echo gettype($salary).'<br>';
+echo gettype(false).'<br>';
 
 // Print the whole variable
 
