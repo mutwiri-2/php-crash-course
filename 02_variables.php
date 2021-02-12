@@ -13,11 +13,37 @@ echo "Syntax of declaring a variable is \$variable_name = value;".'<br>';
 
 
 // Variable types
+echo "Variable types in PHP are:".'<br>';
+echo "String".'<br>';
+echo "Integer".'<br>';
+echo "Float / Double".'<br>';
+echo "Boolean".'<br>';
+echo "NULL".'<br>';
+echo "Array".'<br>';
+echo "Object".'<br>';
+echo "Resource".'<br>';
+
 
 // Declare variables
 
-// Print the variables. Explain what is concatenation
+$name = 'Mutwiri Mwenda';
+$age = 100;
+$isMale = true;
+$height = 1.85;
+$salary = null;
 
+// Print the variables.
+
+echo $name.'<br>';
+echo $age.'<br>';
+echo $isMale.'<br>';
+echo $height.'<br>';
+echo $salary.'<br>';
+echo "\$isMale value is true but the browser outputs 1, because whenever a Boolean
+is converted to a String (e.g when we try to print the boolean variable), the true
+value is converted to 1 and false value will be converted to an empty string";
+echo "NULL values are also converted to an empty string when we print them out.";
+echo '<br>';
 // Print types of the variables
 
 // Print the whole variable
