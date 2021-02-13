@@ -46,5 +46,17 @@ I love programming
 echo $longText . '<br>';
 echo nl2br($longText) . '<br>';
 // Multiline text and reserve html tags
+$longText = "
+Hello, my name is <b>Kevin</b>,
+I am <strong>26</strong> and,
+I love <i>programming</i>
+";
+
+echo $longText . '<br>';
+echo nl2br($longText) . '<br>';
+echo htmlentities($longText) . '<br>';
+echo nl2br(htmlentities($longText)) . '<br>';
+
+echo html_entity_decode('<b>Kevin</b>') . '<br>';
 
 // https://www.php.net/manual/en/ref.strings.php
