@@ -1,7 +1,14 @@
 <?php
 
 // Create simple string
+$name = 'Mutwiri Mwenda';
+$msg = 'Welcome to PHP';
+// difference between single and double string strings
+$string = 'Hello $name and ' . $msg . '<br>';
+$string1 = "Hello $name and " . $msg . '<br>';
 
+echo $string;
+echo $string1;
 // String concatenation
 
 // String functions
