@@ -61,5 +61,7 @@ echo "floor(2.6) = " . floor(2.6) . '<br>'; // round down
 echo "ceil(2.4) = " . ceil(2.4) . '<br>'; // round up
 
 // Formatting numbers
+$number = PHP_INT_MAX;
+echo number_format($number, 2, '.', ','); // decimal separator, thousand separator
 
 // https://www.php.net/manual/en/ref.math.php
