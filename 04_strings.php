@@ -37,7 +37,14 @@ echo "18 -- " . str_ireplace('world', 'PHP', $str) . '<br>';
 
 
 // Multiline text and line breaks
+$longText = "
+Hello, my name is Kevin,
+I am 26 and,
+I love programming
+";
 
+echo $longText . '<br>';
+echo nl2br($longText) . '<br>';
 // Multiline text and reserve html tags
 
 // https://www.php.net/manual/en/ref.strings.php
