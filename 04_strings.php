@@ -9,7 +9,9 @@ $string1 = "Hello $name and " . $msg . '<br>';
 
 echo $string;
 echo $string1;
+
 // String concatenation
+echo 'Hello' . ' World' . ' PHP' .'<br>';
 
 // String functions
 
