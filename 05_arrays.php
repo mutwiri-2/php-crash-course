@@ -1,9 +1,13 @@
 <?php
 
 // Create array
+$fruits =  ["Bananas", "Apple", "Oranges"]; //array(); 
+
 
 // Print the whole array
-
+echo '<pre>';
+var_dump($fruits);
+echo '</pre>';
 // Get element by index
 
 // Set element by index
