@@ -66,10 +66,12 @@ echo '</pre>';
 // Split the string into an array
 $str = "The quick brown fox";
 echo '<pre>';
-var_dump(explode(" ", $str));
+$strArray = explode(" ", $str);
+var_dump($strArray);
 echo '</pre>';
 
 // Combine array elements into string
+echo implode(" ", $strArray);
 
 // Check if element exist in the array
 
