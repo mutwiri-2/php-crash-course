@@ -85,6 +85,12 @@ var_dump(in_array('Kiwi',$fruits));
 echo '</pre>';
 
 // Search element index in the array
+echo '<pre>';
+var_dump(array_search('Apple',$fruits));
+echo '</pre>';
+echo '<pre>';
+var_dump(array_search('Apples',$fruits)); // returns false if doesn't exist
+echo '</pre>';
 
 // Merge two arrays
 
