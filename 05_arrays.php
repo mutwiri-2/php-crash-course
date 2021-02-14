@@ -17,6 +17,14 @@ echo $fruits[3]. '<br>';
 
 // Set element by index
 
+$fruits[3] = "Mango";
+echo '<pre>';
+var_dump($fruits);
+echo '</pre>';
+$fruits[0] = 'Banana';
+echo '<pre>';
+var_dump($fruits);
+echo '</pre>';
 // Check if array has element at index 2
 
 // Append element
