@@ -150,6 +150,22 @@ var_dump($person);
 echo '</pre>';
 
 // Null coalescing assignment operator. Since PHP 7.4
+if (! isset($person['address'])) {
+    $person['address'] = 'Unknown';
+}
+echo '<pre>';
+var_dump($person);
+echo '</pre>';
+
+$person['town'] = $person['town'] ?? "Nairobi";
+echo '<pre>';
+var_dump($person);
+echo '</pre>';
+
+$person['county'] ??= "047";
+echo '<pre>';
+var_dump($person);
+echo '</pre>';
 
 // Check if array has specific key
 
