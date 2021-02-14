@@ -168,6 +168,8 @@ var_dump($person);
 echo '</pre>';
 
 // Check if array has specific key
+var_dump(isset($person['name']));
+var_dump(isset($person['Name']));
 
 // Print the keys of the array
 
