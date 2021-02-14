@@ -137,6 +137,11 @@ var_dump($person);
 echo '</pre>';
 
 // Get element by key
+echo '<pre>';
+var_dump($person['hobbies']);
+echo '</pre>';
+echo $person['name'] . '<br>';
+echo $person['Surname'] . '<br>'; //prints nothing - key doesn't exist
 
 // Set element by key
 
