@@ -25,7 +25,10 @@ $fruits[0] = 'Banana';
 echo '<pre>';
 var_dump($fruits);
 echo '</pre>';
-// Check if array has element at index 2
+
+// Check if array has element at index
+var_dump(isset($fruits[2])); //true
+var_dump(isset($fruits[4])); //false
 
 // Append element
 
