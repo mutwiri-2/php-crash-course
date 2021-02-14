@@ -97,6 +97,10 @@ $vegetables = ['Cabbage', 'Mrenda', 'Kale'];
 echo '<pre>';
 var_dump(array_merge($vegetables,$fruits)); // order matters
 echo '</pre>';
+// new merge array notation - PHP v7.4+
+echo '<pre>';
+var_dump([...$fruits, ...$vegetables]);
+echo '</pre>';
 
 // Sorting of array (Reverse order also)
 
