@@ -40,8 +40,16 @@ echo '</pre>';
 echo count($fruits) . '<br>';
 
 // Add element at the end of the array
+array_push($fruits, "Lemons");
+echo '<pre>';
+var_dump($fruits);
+echo '</pre>';
 
 // Remove element from the end of the array
+echo array_pop($fruits);
+echo '<pre>';
+var_dump($fruits);
+echo '</pre>';
 
 // Add element at the beginning of the array
 
