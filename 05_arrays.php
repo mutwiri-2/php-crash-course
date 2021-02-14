@@ -64,6 +64,10 @@ var_dump($fruits);
 echo '</pre>';
 
 // Split the string into an array
+$str = "The quick brown fox";
+echo '<pre>';
+var_dump(explode(" ", $str));
+echo '</pre>';
 
 // Combine array elements into string
 
