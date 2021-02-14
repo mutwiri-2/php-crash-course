@@ -103,15 +103,30 @@ var_dump([...$fruits, ...$vegetables]);
 echo '</pre>';
 
 // Sorting of array (Reverse order also)
+echo '<pre>';
+var_dump($fruits);
+echo '</pre>';
+sort($fruits);
+echo '<pre>';
+var_dump($fruits);
+echo '</pre>';
+
+//reverse sort
+rsort($fruits);
+echo '<pre>';
+var_dump($fruits);
+echo '</pre>';
 
 
 // https://www.php.net/manual/en/ref.array.php
+
 
 // ============================================
 // Associative arrays
 // ============================================
 
 // Create an associative array
+
 
 // Get element by key
 
