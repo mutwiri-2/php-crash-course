@@ -144,6 +144,10 @@ echo $person['name'] . '<br>';
 echo $person['Surname'] . '<br>'; //prints nothing - key doesn't exist
 
 // Set element by key
+$person['country'] = "Kenya";
+echo '<pre>';
+var_dump($person);
+echo '</pre>';
 
 // Null coalescing assignment operator. Since PHP 7.4
 
