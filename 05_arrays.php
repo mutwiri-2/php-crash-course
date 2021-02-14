@@ -172,8 +172,15 @@ var_dump(isset($person['name']));
 var_dump(isset($person['Name']));
 
 // Print the keys of the array
+echo '<pre>';
+var_dump(array_keys($person));
+echo '</pre>';
 
 // Print the values of the array
+echo '<pre>';
+var_dump(array_values($person));
+echo '</pre>';
+
 
 // Sorting associative arrays by values, by keys
 
