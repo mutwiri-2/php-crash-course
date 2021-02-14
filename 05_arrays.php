@@ -183,6 +183,14 @@ echo '</pre>';
 
 
 // Sorting associative arrays by values, by keys
+ksort($person); // by keys
+echo '<pre>';
+var_dump($person);
+echo '</pre>';
 
+asort($person); // by values
+echo '<pre>';
+var_dump($person);
+echo '</pre>';
 
 // Two dimensional arrays
