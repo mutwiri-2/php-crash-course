@@ -74,6 +74,15 @@ echo '</pre>';
 echo implode(" ", $strArray);
 
 // Check if element exist in the array
+echo '<pre>';
+var_dump(in_array('Apple',$fruits));
+echo '</pre>';
+echo '<pre>';
+var_dump(in_array('apple',$fruits)); //case-sensitive
+echo '</pre>';
+echo '<pre>';
+var_dump(in_array('Kiwi',$fruits));
+echo '</pre>';
 
 // Search element index in the array
 
