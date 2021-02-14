@@ -31,8 +31,13 @@ var_dump(isset($fruits[2])); //true
 var_dump(isset($fruits[4])); //false
 
 // Append element
+$fruits[] = 'Peaches';
+echo '<pre>';
+var_dump($fruits);
+echo '</pre>';
 
 // Print the length of the array
+echo count($fruits) . '<br>';
 
 // Add element at the end of the array
 
