@@ -93,6 +93,10 @@ var_dump(array_search('Apples',$fruits)); // returns false if doesn't exist
 echo '</pre>';
 
 // Merge two arrays
+$vegetables = ['Cabbage', 'Mrenda', 'Kale'];
+echo '<pre>';
+var_dump(array_merge($vegetables,$fruits)); // order matters
+echo '</pre>';
 
 // Sorting of array (Reverse order also)
 
