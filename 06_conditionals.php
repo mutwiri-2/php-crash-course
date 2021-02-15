@@ -12,6 +12,11 @@ if ($age === 20) {
 if ($age === 20) echo "Age is $age" . '<br>';
 
 // Sample if-else
+if ($age !== 20) {
+    echo "Age is not $age" .'<br>';
+}else{
+    echo "Age is $age" . '<br>';
+}
 
 // Difference between == and ===
 
