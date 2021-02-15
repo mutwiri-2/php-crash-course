@@ -48,12 +48,12 @@ foreach ($teams as $team) {
 $person = [
     'name' => "Kevin Mutwiri",
     'age' => 26,
-    'hobbies' => ['Basketball', 'FIFA'],
+    'hobbies' => ['Basketball', 'FIFA', 'Photography'],
 ];
 
 foreach ($person as $key => $value) {
     if (is_array($value)){
-        echo $key . ' are ' . implode("," , $value) . '<br>';
+        echo $key . ' are ' . implode(", " , $value) . '<br>';
     } else {
         echo $key . ' is ' . $value . '<br>';
     }
