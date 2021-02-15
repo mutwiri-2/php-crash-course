@@ -45,6 +45,11 @@ if ($age === 20 || $salary === 300000) {
 echo $age < 22 ? "Young" : "Old";
 
 // Short ternary
+$age1 = 0;
+$myAge = $age1 ?: 26;
+echo '<pre>';
+var_dump($myAge);
+echo '</pre>';
 
 // Null coalescing operator
 
