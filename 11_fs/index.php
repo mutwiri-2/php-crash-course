@@ -25,8 +25,12 @@ var_dump($files);
 echo '</pre>';
 
 // file_get_contents, file_put_contents
+echo file_get_contents('lorem.txt') . '<br>';
+file_put_contents('sample.txt', "Some sample content");
+echo file_get_contents('sample.txt') . '<br>';
 
 // file_get_contents from URL
+
 
 // https://www.php.net/manual/en/book.filesystem.php
 // file_exists
