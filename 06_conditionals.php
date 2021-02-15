@@ -31,8 +31,14 @@ echo '<br>';
 
 
 // if AND
+if ($age === 20 && $salary === 300000) {
+    echo "Age is $age and salary is $salary".'<br>';
+}
 
 // if OR
+if ($age === 20 || $salary === 300000) {
+    echo "Age is $age and salary is $salary".'<br>';
+}
 
 // Ternary if
 
