@@ -35,5 +35,13 @@ for ($i=15; $i>0; $i--) {
 }
 
 // foreach
+$teams = ["Arsenal", "Man U", "City", "Leeds"];
+foreach ($teams as $idx => $team) {
+    echo $idx . ' ' . $team .'<br>';
+}
+
+foreach ($teams as $team) {
+    echo $team .'<br>';
+}
 
 // Iterate Over associative array.
