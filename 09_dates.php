@@ -11,6 +11,7 @@ echo date('l jS \of F Y h:i:s A') . '<br>';
 echo date('F j Y H:i:s') . '<br>';
 
 // Print current timestamp
+echo time(); // seconds from 1970 Jan 1st midnight
 
 // Parse date: https://www.php.net/manual/en/function.date-parse.php
 
