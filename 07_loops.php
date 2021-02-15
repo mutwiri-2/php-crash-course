@@ -45,3 +45,16 @@ foreach ($teams as $team) {
 }
 
 // Iterate Over associative array.
+$person = [
+    'name' => "Kevin Mutwiri",
+    'age' => 26,
+    'hobbies' => ['Basketball', 'FIFA'],
+];
+
+foreach ($person as $key => $value) {
+    if (is_array($value)){
+        echo $key . ' are ' . implode("," , $value) . '<br>';
+    } else {
+        echo $key . ' is ' . $value . '<br>';
+    }
+}
