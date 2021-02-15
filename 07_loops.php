@@ -5,6 +5,15 @@
 //     echo "Online..." . '<br>';
 // } // infinite loop
 
+$counter = 0;
+while ($counter < 20) {
+    echo $counter . '<br>';
+    // if ($counter === 10) {
+    //     break;
+    // }
+    $counter++;
+}
+
 // Loop with $counter
 
 // do - while
