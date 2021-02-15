@@ -1,21 +1,15 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-<header>
-    <a href="index.php">Home</a>
-    <a href="about.php">About</a>
-</header>
-<h3>Georgia, Tbilisi 5&#8451;</h3>
+<?php include_once "partials/header.php" ?>
 <h1>Welcome to my cool website</h1>
-<footer>
-    Copyright &copy; 2020 TheCodeholic
-</footer>
-</body>
-</html>
+<?php include_once "partials/footer.php" ?>
+
+<!-- difference between include and require -->
+<!-- When the file is not found using require it basically stops
+the execution of the file. You should use require when that
+file is absolutely necesary for the page's functionality
+
+When the file is not found using include the rest of the code still executes.
+You should use include when that file is not absolutely necesary for the page's
+functionality -->
+
+<!-- include_once and require_once used to avoid errors caused if we try including
+or requiring a file more than once. -->
