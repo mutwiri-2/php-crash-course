@@ -38,3 +38,7 @@ function sumOfUnlimited(...$nums)
 echo sumOfUnlimited(1,2,3,4,5,6,7,8,9);
 
 // Arrow functions
+function sums(...$numbers)
+{
+    return array_reduce($numbers, fn($carry, $num) => $carry + $num);
+}
