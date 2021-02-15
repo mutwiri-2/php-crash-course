@@ -23,8 +23,16 @@ while ($counter < 20) {
 }
 
 // do - while
+$i = 5;
+do {
+    echo $i . '<br>';
+    $i++;
+} while ($i < 20);
 
 // for
+for ($i=15; $i>0; $i--) {
+    echo $i . '<br>';
+}
 
 // foreach
 
