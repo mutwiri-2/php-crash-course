@@ -1,6 +1,11 @@
 <?php
 
-// Function which prints "Hello I am Zura"
+// Function
+function hello()
+{
+    echo "Hello World, I am Mutwiri" . '<br>';
+}
+hello();
 
 // Function with argument
 
