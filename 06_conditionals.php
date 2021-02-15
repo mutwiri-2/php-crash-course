@@ -19,6 +19,16 @@ if ($age !== 20) {
 }
 
 // Difference between == and ===
+var_dump($age == 20); // == only compares values
+echo '<br>';
+var_dump($age == '20');
+echo '<br>';
+
+var_dump($age === 20);
+echo '<br>';
+var_dump($age === '20'); // compares values and types
+echo '<br>';
+
 
 // if AND
 
