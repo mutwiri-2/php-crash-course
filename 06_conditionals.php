@@ -52,5 +52,23 @@ var_dump($myAge);
 echo '</pre>';
 
 // Null coalescing operator
+$myName = isset($name) ? $name:"Kevin Mutwiri";
+echo $myName . '<br>';
+$theName = $name ?? "Mwendaa";
+echo $theName . '<br>';
 
 // switch
+$userRole = 'admin'; // editor, admin, user
+switch ($userRole) {
+    case 'admin':
+        echo "Admin";
+        break;
+    case 'user':
+        echo "User";
+        break;
+    case 'editor':
+        echo "Editor";
+        break;
+    default:
+        echo "Invalid User";
+}
