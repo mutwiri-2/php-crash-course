@@ -1,6 +1,9 @@
 <?php
 
 // while
+// while (true) {
+//     echo "Online..." . '<br>';
+// } // infinite loop
 
 // Loop with $counter
 
