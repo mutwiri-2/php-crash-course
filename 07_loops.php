@@ -8,13 +8,19 @@
 $counter = 0;
 while ($counter < 20) {
     echo $counter . '<br>';
-    // if ($counter === 10) {
-    //     break;
-    // }
+    if ($counter === 10) {
+        break;
+    }
     $counter++;
 }
 
 // Loop with $counter
+
+$counter = 0;
+while ($counter < 20) {
+    echo $counter . '<br>';
+    $counter++;
+}
 
 // do - while
 
