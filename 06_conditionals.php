@@ -41,6 +41,8 @@ if ($age === 20 || $salary === 300000) {
 }
 
 // Ternary if
+// Usually used for conditional statement whose code executes sth small
+echo $age < 22 ? "Young" : "Old";
 
 // Short ternary
 
