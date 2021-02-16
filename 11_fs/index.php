@@ -30,7 +30,17 @@ file_put_contents('sample.txt', "Some sample content");
 echo file_get_contents('sample.txt') . '<br>';
 
 // file_get_contents from URL
+$userJson = file_get_contents('https://jsonplaceholder.typicode.com/users');
+$users = json_decode($userJson); // gives an object
+echo '<pre>';
+var_dump($users);
+echo '</pre>';
 
+// convert to associative array
+$users = json_decode($userJson, true);
+echo '<pre>';
+var_dump($users);
+echo '</pre>';
 
 // https://www.php.net/manual/en/book.filesystem.php
 // file_exists
