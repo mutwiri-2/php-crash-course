@@ -43,10 +43,13 @@ var_dump($users);
 echo '</pre>';
 
 // https://www.php.net/manual/en/book.filesystem.php
+
 // file_exists
 echo file_exists('sample.txt');
 
 // is_dir
+echo is_dir('.');
+
 // filemtime
 // filesize
 // disk_free_space
