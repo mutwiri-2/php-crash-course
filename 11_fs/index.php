@@ -44,6 +44,8 @@ echo '</pre>';
 
 // https://www.php.net/manual/en/book.filesystem.php
 // file_exists
+echo file_exists('sample.txt');
+
 // is_dir
 // filemtime
 // filesize
