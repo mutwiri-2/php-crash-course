@@ -56,6 +56,13 @@ var_dump($person2);
 echo '</pre>';
 echo $person2->getAge().'<br>';
 
+$person3 = new Persons("Diana", "Njeri");
+$person3->setAge(22);
+echo '<pre>';
+var_dump($person3);
+echo '</pre>';
+echo $person3->getAge().'<br>';
+
 // Create Person class in Person.php
 
 // Create instance of Person
