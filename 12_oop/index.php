@@ -42,6 +42,11 @@ class Persons {
     {
         $this->age = $age;
     }
+
+    public function getAge()
+    {
+        return $this->age;
+    }
 }
 
 $person2 = new Persons('The', 'Wambui');
@@ -49,6 +54,7 @@ $person2->setAge(30);
 echo '<pre>';
 var_dump($person2);
 echo '</pre>';
+echo $person2->getAge().'<br>';
 
 // Create Person class in Person.php
 
