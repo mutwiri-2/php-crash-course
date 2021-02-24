@@ -1,11 +1,11 @@
 <?php
 
 class Persons {
-    public $name;
-    public $surname;
-    private $age;
+    public string $name;
+    public string $surname;
+    private int $age;
     // static properties / methods belong to class not objects
-    public static $counter = 0; 
+    public static int $counter = 0; 
 
     public function __construct($name, $surname)
     {
