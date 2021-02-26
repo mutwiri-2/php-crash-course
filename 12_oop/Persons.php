@@ -3,7 +3,7 @@
 class Persons {
     public string $name;
     public string $surname;
-    private int $age;
+    private ?int $age;
     // static properties / methods belong to class not objects
     public static int $counter = 0; 
 
@@ -11,6 +11,7 @@ class Persons {
     {
         $this->name = $name;
         $this->surname = $surname;
+        $this->age = null;
         self::$counter++; // increase counter whenever we create an instance
     }
 

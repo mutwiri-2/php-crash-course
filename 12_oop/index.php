@@ -30,6 +30,10 @@ var_dump($person1);
 echo '</pre>';
 
 
+
+
+// Create Persons class in Persons.php
+// Create instance of Persons
 $person2 = new Persons('The', 'Wambui');
 $person2->setAge(30);
 echo '<pre>';
@@ -44,12 +48,22 @@ var_dump($person3);
 echo '</pre>';
 echo $person3->getAge().'<br>';
 
-// access static properties with double colon
+$person4 = new Persons("John", "Gathirwa");
+echo '<pre>';
+var_dump($person4);
+echo '</pre>';
+echo $person4->getAge().'<br>';
+
+// access static properties and methods with double colon
 echo Persons::$counter.'<br>';
 echo Persons::getCounter();
 
-// Create Person class in Person.php
-
-// Create instance of Person
-
-// Using setter and getter
+class Student extends Persons
+{
+    public string $studentId;
+    
+    public function __construct($name, $surname, $studentId)
+    {
+        
+    }
+}
