@@ -3,7 +3,7 @@
 class Persons {
     public string $name;
     public string $surname;
-    private ?int $age;
+    protected ?int $age;
     // static properties / methods belong to class not objects
     public static int $counter = 0; 
 

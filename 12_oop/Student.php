@@ -7,7 +7,8 @@ class Student extends Persons
     
     public function __construct($name, $surname, $studentId)
     {
-        $this->studentId = $studentId;
         parent::__construct($name, $surname);
+        $this->studentId = $studentId;
+        $this->$age = 18;
     }
 }
