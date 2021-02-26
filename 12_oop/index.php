@@ -1,6 +1,7 @@
 <?php
 
 require_once "Persons.php";
+require_once "Student.php";
 
 // What is class and instance
 class Person {
@@ -58,12 +59,7 @@ echo $person4->getAge().'<br>';
 echo Persons::$counter.'<br>';
 echo Persons::getCounter();
 
-class Student extends Persons
-{
-    public string $studentId;
-    
-    public function __construct($name, $surname, $studentId)
-    {
-        
-    }
-}
+$student = new Student("Willy", "Nganga", '002015');
+echo '<pre>';
+var_dump($student);
+echo '</pre>';
