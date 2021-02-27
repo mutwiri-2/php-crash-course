@@ -25,9 +25,26 @@ echo '</pre>';
 
 // Get response status code
 $code = curl_getinfo($resource, CURLINFO_HTTP_CODE);
-echo $code;
+echo $code.'<br>';
 curl_close($resource);
 
-// set_opt_array
 
-// Post request
+// Post request set_opt_array
+$user = [
+    'name' => 'John Doe',
+    'username' => 'john',
+    'email' => 'john@example.com'
+];
+
+$resource = curl_init();
+curl_setopt_array($resource, [
+    CURLOPT_URL => $url,
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_POST => true,
+    CURLOPT_HTTPHEADER => ["content-type: application/json"],
+    CURLOPT_POSTFIELDS => json_encode($user)
+]);
+
+$result = curl_exec($resource);
+curl_close($resource);
+echo $result;
