@@ -7,12 +7,13 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./app.css">
 
     <title>Hello, world!</title>
   </head>
   <body>
     <h1>Products CRUD App</h1>
-    <table class="table">
+    <table class="table table-borderless">
         <thead>
             <tr>
             <th scope="col">#</th>
