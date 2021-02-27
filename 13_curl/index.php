@@ -24,6 +24,8 @@ var_dump($info);
 echo '</pre>';
 
 // Get response status code
+$code = curl_getinfo($resource, CURLINFO_HTTP_CODE);
+echo $code;
 
 // set_opt_array
 
