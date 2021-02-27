@@ -17,6 +17,12 @@ curl_setopt($resource, CURLOPT_RETURNTRANSFER, true);
 $result = curl_exec($resource);
 echo $result;
 
+// get info
+$info = curl_getinfo($resource);
+echo '<pre>';
+var_dump($info);
+echo '</pre>';
+
 // Get response status code
 
 // set_opt_array
