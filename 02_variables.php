@@ -87,7 +87,7 @@ echo '<br>' . PI . '<br>'; // no dollar sign before constant name
 
 // Using PHP built-in constants
 
-echo PHP_INT_MAX . '<br>';
+echo PHP_INT_MAX . '<br>'; //prints the largest integer supported in this build of PHP.
 echo SORT_ASC. '<br>';
 
 ?>
