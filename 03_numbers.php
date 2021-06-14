@@ -50,11 +50,10 @@ var_dump($numInt);
 
 
 // Number functions
-echo '<br>' . "abs(-15) = " . abs(1.5) . '<br>';
+echo '<br>' . "abs(-15) = " . abs(15) . '<br>';
 echo "pow(2,3) = " . pow(2,3) . '<br>';
 echo "max(2,3,9,5,6,7) = " . max(2,3,9,5,6,7) . '<br>';
 echo "min(2,3,9,5,6,7) = " . min(2,3,9,5,6,7) . '<br>';
-echo "pow(2,3) = " . pow(2,3) . '<br>';
 echo "round(2.4) = " . round(2.4) . '<br>';
 echo "round(2.6) = " . round(2.6) . '<br>';
 echo "floor(2.6) = " . floor(2.6) . '<br>'; // round down
