@@ -12,11 +12,12 @@ echo '</pre>';
 echo '<pre>';
 print_r($fruits);
 echo '</pre>';
+
 // Get element by index
 echo $fruits[0]. '<br>';
 echo $fruits[1]. '<br>';
 echo $fruits[2]. '<br>';
-echo $fruits[3]. '<br>';
+echo $fruits[3]. '<br>'; // error - undefined offset: 3 (idx out of range)
 
 // Set element by index
 
