@@ -9,6 +9,6 @@ class Student extends Persons
     {
         parent::__construct($name, $surname);
         $this->studentId = $studentId;
-        $this->$age = 18;
+        // $this->$age = 18;
     }
 }

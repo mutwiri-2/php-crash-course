@@ -60,6 +60,7 @@ echo Persons::$counter.'<br>';
 echo Persons::getCounter();
 
 $student = new Student("Willy", "Nganga", '002015');
+$student->setAge(23);
 echo '<pre>';
 var_dump($student);
 echo '</pre>';
