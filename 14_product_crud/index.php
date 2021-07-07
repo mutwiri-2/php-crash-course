@@ -4,6 +4,16 @@
 $pdo = new PDO('mysql:host=localhost;port=3306;dbname=products_CRUD;', 'root', 'admin1424'); //DSN string, user, empty password
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // throw exception if there is an error during connection
 
+// make query and select all products
+// use prepare to select, execute should be used to make changes to db schema
+// $statement is an instance of PDO statement
+$statement = $pdo->prepare('SELECT * FROM products ORDER BY create_date DESC');
+$statement->execute(); // makes query in database
+$products = $statement->fetchAll(PDO::FETCH_ASSOC); // returns each product as an associative array
+// echo '<pre>';
+// var_dump($products);
+// echo '</pre>';
+
 ?>
 
 <!doctype html>
