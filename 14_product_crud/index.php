@@ -1,7 +1,7 @@
 <?php 
 
 // connect to database using PDO instead of mysqli - more powerful, supports multiple dbs & ObjOriented
-$pdo = new PDO('mysql:host=localhost;port=3306;dbname=products_CRUD;', 'root', 'admin1424'); //DSN string, user, empty password
+$pdo = new PDO('mysql:host=localhost;port=3306;dbname=products_CRUD;', 'root', 'admin1424'); //DSN string, user, password
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // throw exception if there is an error during connection
 
 // make query and select all products
